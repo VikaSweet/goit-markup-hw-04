@@ -428,6 +428,75 @@ justify-content: lef;
 margin-bottom: 9px;
 }
 
+/*--social-networks----*/
+.network-container {
+  display: flex;
+  flex-direction: column;
+   margin-left: 70px; 
+   height: 80px;
+
+}
+.title-network {
+  font-family: var(--primary-font-family);
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+    color:var(--third-text-color);
+    margin-bottom: 20px;
+  
+}
+
+.network-icons {
+  display: flex;
+   width: 206px;
+  height: 44px;
+
+ }
+
+.network-icon {
+  display: flex;
+  margin-right: 10px;
+  width: 44px;
+  height: 44px;
+ }
+.network-icon:last-child {
+  margin-left: 0;
+  }
+
+  .network-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     height: 100%;
+    width: 100%;
+    padding: 0;
+background-color: var(--background-origin)
+border-radius: 4px;
+}
+
+.network-svg {
+  display: block;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  content: "";
+ background-repeat: no-repeat;
+ border-radius: 50%;
+}
+ .network-link:hover {
+  background-color: var(--accent-color);
+ } 
+ .network-link:focus {
+  background-color: var(--accent-color);
+ }
+ .network-svg:hover {
+  fill: 
+  rgba(255, 255, 255, 1);
+ }
+ .network-svg:focus {
+  fill: 
+  rgba(255, 255, 255, 1);
+ }
 /*--------PORTFOLIO------------*/
 
 /*---main-portfolio---*/
