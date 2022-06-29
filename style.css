@@ -451,8 +451,6 @@ margin-bottom: 9px;
   display: flex;
    width: 206px;
   height: 44px;
-  border-radius: 50%;
-
  }
 
 .network-icon {
@@ -460,6 +458,7 @@ margin-bottom: 9px;
   margin-right: 10px;
   width: 44px;
   height: 44px;
+  border-radius: 50%;
  }
 .network-icon:last-child {
   margin-left: 0;
