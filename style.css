@@ -451,6 +451,7 @@ margin-bottom: 9px;
   display: flex;
    width: 206px;
   height: 44px;
+  border-radius: 50%;
 
  }
 
@@ -472,7 +473,7 @@ margin-bottom: 9px;
     width: 100%;
     padding: 0;
 background-color: var(--background-origin)
-border-radius: 4px;
+border-radius: 50%;
 }
 
 .network-svg {
@@ -483,20 +484,13 @@ border-radius: 4px;
  background-repeat: no-repeat;
  border-radius: 50%;
 }
- .network-link:hover {
+.network-icon:hover .network-link {
   background-color: var(--accent-color);
  } 
- .network-link:focus {
+ .network-icon:hover .network-link {
   background-color: var(--accent-color);
  }
- .network-svg:hover {
-  fill: 
-  rgba(255, 255, 255, 1);
- }
- .network-svg:focus {
-  fill: 
-  rgba(255, 255, 255, 1);
- }
+ 
 /*--------PORTFOLIO------------*/
 
 /*---main-portfolio---*/
