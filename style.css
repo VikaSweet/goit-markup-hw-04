@@ -458,8 +458,7 @@ margin-bottom: 9px;
   margin-right: 10px;
   width: 44px;
   height: 44px;
-  border-radius: 50%;
- }
+   }
 .network-icon:last-child {
   margin-left: 0;
   }
@@ -483,11 +482,13 @@ border-radius: 50%;
  background-repeat: no-repeat;
  border-radius: 50%;
 }
-.network-icon:hover .network-link {
+.network-icon:hover .network-link .network-svg {
   background-color: var(--accent-color);
+  border-radius: 50%;
  } 
- .network-icon:hover .network-link {
+ .network-icon:focus .network-link .network-svg {
   background-color: var(--accent-color);
+  border-radius: 50%;
  }
  
 /*--------PORTFOLIO------------*/
