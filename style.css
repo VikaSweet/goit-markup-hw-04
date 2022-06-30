@@ -372,10 +372,12 @@ display: block;
 
 
 .icon-staff:hover .link-svg {
+  background-color: var(--accent-color);
   fill: #ffffff;
   border-radius: 50%;
 }
 .icon-staff:focus .link-svg {
+  background-color: var(--accent-color);
   fill: #ffffff;
   border-radius: 50%;
 }
