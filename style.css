@@ -327,6 +327,7 @@ rgba(0, 0, 0, 0.12);
 display: flex;
 flex-wrap: wrap;
 justify-content: center;
+margin-left: -10px;
 }
 .icon-staff {
   width: 44px;
