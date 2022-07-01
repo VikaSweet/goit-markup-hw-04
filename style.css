@@ -131,7 +131,7 @@ margin-right: 50px;
   padding-top: 32px;
   padding-bottom: 32px;
 }
-.contact-nav:hover .link-phone .phone-icon {
+.nav-list.phone-icon:hover {
   color: var(--accent-color);
   fill: currentColor;
 }
