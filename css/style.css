@@ -479,21 +479,20 @@ display: block;
   fill:  #AFB1B8;
  }
 
-.icon-staff:hover .icons-link {
+icon-staff:hover .icons-link {
   background-color: var(--accent-color);
   border-radius: 50%;
 }
-.icon-staff:focus .icons-link {
+icon-staff:focus .icons-link {
   background-color: var(--accent-color);
   border-radius: 50%;
 }
 
-
-.icon-staff:hover .link-svg {
+.icon-staff:hover .svg-card {
   background-color: var(--accent-color);
   border-radius: 50%;
 }
-.icon-staff:focus .link-svg {
+.icon-staff:focus .svg-card {
   background-color: var(--accent-color);
   border-radius: 50%;
 }
