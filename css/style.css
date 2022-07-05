@@ -479,7 +479,7 @@ display: block;
   fill:  #AFB1B8;
  }
 
-icon-staff:hover .icons-link {
+/*---icon-staff:hover .icons-link {
   background-color: var(--accent-color);
   border-radius: 50%;
 }
@@ -689,7 +689,7 @@ border-radius: 50%;
   border-radius: 50%;
  }
 
-  .network-svg:hover {
+  /*---.network-svg:hover {
   fill: 
   rgba(255, 255, 255, 1);
   border-radius: 50%;
