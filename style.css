@@ -429,16 +429,16 @@ display: block;
   margin-right: 0;
 }
 
-.icon-clients:hover .clients-svg {
+.icon-clients:hover .svg {
   fill: var(--accent-color);
 }
-.icon-clients:hover .clients-link {
+.icon-clients:hover {
   border-color:var(--accent-color);
 }
-.icon-clients:focus .clients-svg {
+.icon-clients:focus .svg {
   fill: var(--accent-color);
 }
-.icon-clients:focus .clients-link {
+.icon-clients:focus {
   border-color:var(--accent-color);
 }
 .clients-svg {
