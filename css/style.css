@@ -487,15 +487,13 @@ display: block;
 
  .icon-staff:hover .svg-card {
   fill: #ffffff;
-  background-color: var(--accent-color);
 }
 
 .icon-staff:focus .svg-card {
   fill: #ffffff;
-  background-color: var(--accent-color);
 }
 
-/*--.icon-staff:hover .link-svg {
+.icon-staff:hover .link-svg {
   background-color: var(--accent-color);
  
 }
