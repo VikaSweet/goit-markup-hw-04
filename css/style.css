@@ -476,8 +476,7 @@ display: block;
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  border-radius: 1px;
- background: #ffffff;
+  background: #ffffff;
  border-radius: 50%;
 }
 
@@ -494,11 +493,11 @@ display: block;
 }
 
 .icon-staff:hover .link-svg {
-  background-color: var(--accent-color);
+  background: var(--accent-color);
  
 }
 .icon-staff:focus .link-svg {
-  background-color: var(--accent-color);
+  background: var(--accent-color);
 }
 
 /*--clients-------*/
