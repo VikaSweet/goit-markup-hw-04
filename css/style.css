@@ -465,7 +465,7 @@ justify-content: center;
   height: 44px;
   width: 44px;
   padding: 0;
-background-color: var(--background-origin)
+background-color: var(--background-origin);
 border-radius: 50%;
 }
 .link-svg {
