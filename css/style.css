@@ -476,7 +476,7 @@ display: block;
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
-  fill:  #AFB1B8;
+  fill:  rgba(175, 177, 184, 1);
  }
 
 .icon-staff:hover .link-svg {
@@ -669,7 +669,6 @@ border-radius: 50%;
  background-repeat: no-repeat;
  border-radius: 1px;
  background: rgba(255, 255, 255, 0.1);
- fill: rgba(175, 177, 184, 1)
  border-radius: 50%;
 }
 
