@@ -500,7 +500,7 @@ display: block;
   border-radius: 50%;
 }
 .icon-staff:hover .svg-card {
-  fill: var(--accent-color);
+  background-color: var(--accent-color);
 }
 /*--clients-------*/
 .section-clients {
