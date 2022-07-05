@@ -680,11 +680,11 @@ border-radius: 50%;
  border-radius: 50%;
 }
 
-.network-icon:hover .network-link .network-svg {
+.network-icon:hover .network-svg {
   background-color: var(--accent-color);
    } 
 
- .network-icon:focus .network-link .network-svg {
+ .network-icon:focus .network-svg {
   background-color: var(--accent-color);
    }
 
