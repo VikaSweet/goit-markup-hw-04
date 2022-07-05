@@ -491,7 +491,7 @@ display: block;
 
 .icon-staff:hover .link-svg {
   background-color: var(--accent-color);
-  fill: #ffffff;
+  fill: var(--accent-color);
   border-radius: 50%;
 }
 .icon-staff:focus .link-svg {
@@ -695,10 +695,12 @@ border-radius: 50%;
   .network-svg:hover {
   fill: 
   rgba(255, 255, 255, 1);
+  border-radius: 50%;
  }
  .network-svg:focus {
   fill: 
   rgba(255, 255, 255, 1);
+  border-radius: 50%;
  }
 /*--------PORTFOLIO------------*/
 
