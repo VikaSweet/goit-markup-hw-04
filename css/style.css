@@ -479,11 +479,11 @@ display: block;
   fill:  #AFB1B8;
  }
 
-.icon-staff:hover .icons-link {
+.icon-staff:hover .link-svg {
   background-color: var(--accent-color);
-  border-radius: 50%;
+   border-radius: 50%;
 }
-.icon-staff:focus .icons-link {
+.icon-staff:focus .link-svg {
   background-color: var(--accent-color);
   border-radius: 50%;
 }
