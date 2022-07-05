@@ -482,12 +482,17 @@ display: block;
 }
 
 .svg-card {
-  fill: solid rgba(175, 177, 184, 1);
+  fill: rgba(175, 177, 184, 1);
  }
 
  .icon-staff:hover .svg-card {
-  fill: solid #ffffff;
+  fill: #ffffff;
 }
+
+.icon-staff:focus .svg-card {
+  fill: #ffffff;
+}
+
 .icon-staff:hover .link-svg {
   background-color: var(--accent-color);
  
