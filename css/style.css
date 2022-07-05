@@ -476,9 +476,14 @@ display: block;
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
+}
+.svg-card {
   fill:  rgba(175, 177, 184, 1);
  }
 
+ .icon-staff:hover .svg-card {
+  fill: #ffffff;
+}
 .icon-staff:hover .link-svg {
   background-color: var(--accent-color);
   fill: #ffffff;
