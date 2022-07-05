@@ -520,6 +520,7 @@ display: block;
   margin-left: 30px;
     flex-basis: calc( (100% - 6 * 30px) / 6);
   justify-items: center;
+  border: 1px solid rgba(175, 177, 184, 1);
 }
 .clients-link {
   display: flex;
