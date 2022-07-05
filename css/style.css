@@ -540,11 +540,11 @@ border: 1px;
   display: block;
    content: "";
 }
-  .svg {
+  /* .svg {
 fill: rgba(175, 177, 184, 1);
-}
+} */
 
-.icon-clients:hover {
+/* .icon-clients:hover {
   border-color: var(--accent-color);
 }
 .icon-clients:focus{
@@ -555,7 +555,7 @@ fill: rgba(175, 177, 184, 1);
 }
 .icon-clients:hover .svg {
   fill:var(--accent-color);
-}
+} */
 
 /*--footer--------*/
 .footer-section {
