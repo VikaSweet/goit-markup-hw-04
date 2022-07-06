@@ -164,13 +164,11 @@ align-items: center;
   padding-top: 32px;
   padding-bottom: 32px;
 }
-.svg-contact {
-  fill:rgba(117, 117, 117, 1) ;
-}
-.contact-nav.phone-icon:hover .svg-contact {
+
+.contact-nav.phone-icon:hover .phone-icon {
   fill: var(--accent-color);
 }
-.contact-nav:focus .svg-contact {
+.contact-nav:focus .phone-icon {
   fill: var(--accent-color);
 }
 /*--.contact-nav:hover .link-e-mail .phone-icon {
