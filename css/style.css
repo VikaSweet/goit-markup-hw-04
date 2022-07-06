@@ -472,8 +472,6 @@ border-radius: 50%;
 display: block;
   margin-top: 0px;
   margin-bottom: 0px;
-  content: "";
-  background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
  border-radius: 50%;
@@ -493,10 +491,12 @@ display: block;
 
 .icon-staff:hover .link-svg {
   background: var(--accent-color);
+  border-radius: 50%;
  
 }
 .icon-staff:focus .link-svg {
   background: var(--accent-color);
+  border-radius: 50%;
 }
 
 /*--clients-------*/
@@ -654,7 +654,7 @@ margin-bottom: 9px;
   margin-right: 10px;
   width: 44px;
   height: 44px;
- }
+   }
 .network-icon:last-child {
   margin-left: 0;
   }
