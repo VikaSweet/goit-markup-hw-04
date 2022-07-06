@@ -454,8 +454,6 @@ justify-content: center;
    height: 100%;
   width: 100%;
   padding: 0;
-background:#ffffff;
-border-radius: 50%;
 }
 
 .link-svg {
@@ -480,12 +478,12 @@ display: block;
   fill: #ffffff;
 }
 
-.link-svg:hover {
+.icon-staff:hover {
   background-color: var(--accent-color);
   border-radius: 50%;
  
 }
-.link-svg:focus {
+.icon-staff:focus {
   background-color: var(--accent-color);
   border-radius: 50%;
 }
