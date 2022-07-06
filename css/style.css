@@ -464,7 +464,6 @@ display: block;
   margin-bottom: 0px;
   background-position: center;
   background-repeat: no-repeat;
-  fill: #ffffff;
  border-radius: 50%;
 }
 
@@ -481,12 +480,12 @@ display: block;
 }
 
 .icon-staff:hover .link-svg {
-  fill: var(--accent-color);
+  background-color: var(--accent-color);
   border-radius: 50%;
  
 }
 .icon-staff:focus .link-svg {
-  fill: var(--accent-color);
+  background-color: var(--accent-color);
   border-radius: 50%;
 }
 
