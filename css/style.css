@@ -165,7 +165,7 @@ align-items: center;
   padding-bottom: 32px;
 }
 
-.contact-nav.phone-icon:hover .phone-icon {
+/*--.contact-nav.phone-icon:hover .phone-icon {
   fill: var(--accent-color);
 }
 .contact-nav:focus .phone-icon {
