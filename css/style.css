@@ -168,10 +168,10 @@ align-items: center;
   fill:rgba(117, 117, 117, 1) ;
 }
 .contact-nav.phone-icon:hover .svg-contact {
-  fill: currentColor;
+  fill: var(--accent-color);
 }
 .contact-nav:focus .svg-contact {
-  fill: currentColor;
+  fill: var(--accent-color);
 }
 /*--.contact-nav:hover .link-e-mail .phone-icon {
   color: var(--accent-color);
