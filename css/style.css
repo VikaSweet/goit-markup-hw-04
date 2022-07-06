@@ -474,6 +474,7 @@ display: block;
   margin-bottom: 0px;
   background-position: center;
   background-repeat: no-repeat;
+  background: #ffffff;
  border-radius: 50%;
 }
 
@@ -490,12 +491,12 @@ display: block;
 }
 
 .icon-staff:hover .link-svg {
-  background: var(--accent-color);
+  background-color: var(--accent-color);
   border-radius: 50%;
  
 }
 .icon-staff:focus .link-svg {
-  background: var(--accent-color);
+  background-color: var(--accent-color);
   border-radius: 50%;
 }
 
