@@ -461,13 +461,16 @@ justify-content: center;
   margin-right: 0;
 }
 .icons-link {
-  display: inline-flex;
-  height: 44px;
-  width: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+   height: 100%;
+  width: 100%;
   padding: 0;
 background-color: var(--background-origin);
 border-radius: 50%;
 }
+
 .link-svg {
 display: block;
   margin-top: 0px;
@@ -659,7 +662,7 @@ margin-bottom: 9px;
 .network-icon:last-child {
   margin-left: 0;
   }
-
+ 
   .network-link {
     display: flex;
     align-items: center;
