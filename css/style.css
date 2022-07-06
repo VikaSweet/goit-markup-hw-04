@@ -454,7 +454,7 @@ justify-content: center;
    height: 100%;
   width: 100%;
   padding: 0;
-background-color: var(--background-origin);
+background:#ffffff;
 border-radius: 50%;
 }
 
@@ -464,6 +464,7 @@ display: block;
   margin-bottom: 0px;
   background-position: center;
   background-repeat: no-repeat;
+  background: #ffffff;
  border-radius: 50%;
 }
 
@@ -471,20 +472,20 @@ display: block;
   fill: rgba(175, 177, 184, 1);
  }
 
- .icon-staff:hover .svg-card {
+ .svg-card:hover  {
   fill: #ffffff;
 }
 
-.icon-staff:focus .svg-card {
+.svg-card:focus {
   fill: #ffffff;
 }
 
-.icon-staff:hover .link-svg .svg-card {
+.link-svg:hover {
   background-color: var(--accent-color);
   border-radius: 50%;
  
 }
-.icon-staff:focus .link-svg {
+.link-svg:focus {
   background-color: var(--accent-color);
   border-radius: 50%;
 }
