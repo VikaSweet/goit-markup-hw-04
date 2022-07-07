@@ -138,15 +138,17 @@ align-items: center;
     margin-right: 10px;
   }
   
-  .nav-list.link-phone:hover .phone-icon{
+  .nav-list.link-phone:hover {
     color: var(--accent-color);
-    fill:var(--accent-color);
   }
   .nav-list.link-phone:focus {
     color: var(--accent-color);
   }
 
-   .phone-icon:focus {
+  .nav-list.phone-icon:hover {
+    fill:var(--accent-color);
+  }
+  .nav-list.phone-icon:focus {
     fill:var(--accent-color);
   
 
