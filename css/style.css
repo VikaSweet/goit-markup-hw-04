@@ -145,10 +145,10 @@ align-items: center;
     color: var(--accent-color);
   }
 
-  .nav-list.phone-icon:hover {
+  .link-phone.phone-icon:hover {
     fill:var(--accent-color);
   }
-  .nav-list.phone-icon:focus {
+  .link-phone.phone-icon:focus {
     fill:var(--accent-color);
   }
 
