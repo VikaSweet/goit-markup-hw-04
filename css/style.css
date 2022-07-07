@@ -232,6 +232,7 @@ margin-right: auto;
 .section-best-item {
   background-color: var(--background-origin);
   text-align: center;
+  margin-bottom: 94px;
   }
 .items-list {
   display: flex;
