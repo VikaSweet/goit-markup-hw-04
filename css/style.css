@@ -70,11 +70,13 @@ border-bottom: 1px solid rgb(236, 236, 236, 1);
 .logo-text-studio {
   color: var(--primary-text-color);
 }
-.nav-link:hover {
+.contact-nav:hover .nav-link .mail-icon {
   color: var(--accent-color);
+  fill: var(--accent-color);
 }
-.nav-link:focus {
+.contact-nav:focus .nav-link .mail-icon {
   color: var(--accent-color);
+  fill: var(--accent-color);
 }
 .nav-list {
   display: flex;
@@ -124,12 +126,7 @@ align-items: center;
 .mail-icon {
   margin-right: 10px;
 }
-.mail-icon:hover {
-  fill: var(--accent-color);
-}
-.mail-icon:focus {
-  fill:var(--accent-color);
-}
+
 .link-phone {
   display: flex;
   align-items: center;
@@ -137,19 +134,15 @@ align-items: center;
   .phone-icon {
     margin-right: 10px;
   }
-  .nav-list.link-phone:hover {
+  .contact-nav:hover .nav-link .phone-icon {
     color: var(--accent-color);
+    fill: var(--accent-color);
   }
-  .nav-list.link-phone:focus {
+  .contact-nav:focus .nav-link .phone-icon {
     color: var(--accent-color);
+    fill: var(--accent-color);
   }
-  .phone-icon:hover {
-    fill:var(--accent-color);
-  }
-  .phone-icon:focu {
-    fill:var(--accent-color);
-  }
-.text-nav-buttons {
+  .text-nav-buttons {
    font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -233,8 +226,8 @@ margin-right: auto;
 .items-list {
   display: flex;
   margin-left: auto;
-  flex-wrap: wrap;
-justify-content: center;
+  justify-content: center;
+align-items: center;
   }
     .items {
       width: 270px;
@@ -247,7 +240,7 @@ justify-content: center;
       margin-right: 0;
     }
 .title-text {
-  font-weight: 700;
+font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -264,23 +257,15 @@ justify-content: center;
 }
 .icon-container {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   height: 120px;
     padding: 0;
+    margin-bottom: 30px;
 }
-.items-icons {
-  display: flex;
-  padding: 0;
-  flex-wrap: wrap;
-justify-content: center;
-margin-left: -30px;
-margin-bottom: 30px;
-}
+
 .item-icon {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
   height: 120px;
   width: 270px;
   margin-left: 30px;
@@ -301,6 +286,8 @@ border-radius: 4px;
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
+  justify-content: center;
+  justify-items: center;
 fill: #212121;
 }
 
