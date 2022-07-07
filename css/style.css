@@ -70,13 +70,11 @@ border-bottom: 1px solid rgb(236, 236, 236, 1);
 .logo-text-studio {
   color: var(--primary-text-color);
 }
-.contact-nav:hover .nav-link .mail-icon {
+.nav-link:hover {
   color: var(--accent-color);
-  fill: var(--accent-color);
 }
-.contact-nav:focus .nav-link .mail-icon {
+.nav-link:focus {
   color: var(--accent-color);
-  fill: var(--accent-color);
 }
 .nav-list {
   display: flex;
@@ -126,7 +124,12 @@ align-items: center;
 .mail-icon {
   margin-right: 10px;
 }
-
+.mail-icon:hover {
+  fill: var(--accent-color);
+}
+.mail-icon:focus {
+  fill:var(--accent-color);
+}
 .link-phone {
   display: flex;
   align-items: center;
@@ -134,15 +137,19 @@ align-items: center;
   .phone-icon {
     margin-right: 10px;
   }
-  .contact-nav:hover .nav-link .phone-icon {
+  .nav-list.link-phone:hover {
     color: var(--accent-color);
-    fill: var(--accent-color);
   }
-  .contact-nav:focus .nav-link .phone-icon {
+  .nav-list.link-phone:focus {
     color: var(--accent-color);
-    fill: var(--accent-color);
   }
-  .text-nav-buttons {
+  .phone-icon:hover {
+    fill:var(--accent-color);
+  }
+  .phone-icon:focu {
+    fill:var(--accent-color);
+  }
+.text-nav-buttons {
    font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -150,7 +157,7 @@ align-items: center;
   color: currentColor;
   padding-top: 32px;
   padding-bottom: 32px;
-  }
+}
 .nav-accent {
   color: var(--accent-color);
 }
