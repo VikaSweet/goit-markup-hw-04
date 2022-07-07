@@ -474,12 +474,12 @@ display: block;
   fill: #ffffff;
 }
 
-.icon-staff:hover {
+.link-svg:hover {
   background-color: var(--accent-color);
   border-radius: 50%;
  
 }
-.icon-staff:focus {
+.link-svg:focus {
   background-color: var(--accent-color);
   border-radius: 50%;
 }
