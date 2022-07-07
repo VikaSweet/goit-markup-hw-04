@@ -151,7 +151,9 @@ align-items: center;
   padding-top: 32px;
   padding-bottom: 32px;
   }
-
+.nav-accent {
+  color: var(--accent-color);
+}
 .text-nav-contacts {
   font-weight: 500;
   font-size: 14px;
