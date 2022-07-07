@@ -138,19 +138,20 @@ align-items: center;
     margin-right: 10px;
   }
   
-  /*.nav-list.link-phone:hover {
+  .nav-list.link-phone:hover {
     color: var(--accent-color);
   }
   .nav-list.link-phone:focus {
     color: var(--accent-color);
-  }*/
-  
-  .phone-icon:hover {
+  }
+
+  /*.phone-icon:hover {
     fill:var(--accent-color);
   }
   .phone-icon:focus {
     fill:var(--accent-color);
-  }
+  }*/
+
 .text-nav-buttons {
    font-weight: 500;
   font-size: 14px;
