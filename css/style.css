@@ -137,16 +137,18 @@ align-items: center;
   .phone-icon {
     margin-right: 10px;
   }
-  .nav-list.link-phone:hover {
+  
+  /*.nav-list.link-phone:hover {
     color: var(--accent-color);
   }
   .nav-list.link-phone:focus {
     color: var(--accent-color);
-  }
+  }*/
+  
   .phone-icon:hover {
     fill:var(--accent-color);
   }
-  .phone-icon:focu {
+  .phone-icon:focus {
     fill:var(--accent-color);
   }
 .text-nav-buttons {
