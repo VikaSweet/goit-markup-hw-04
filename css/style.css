@@ -435,9 +435,7 @@ justify-content: center;
   width: 44px;
   height: 44px;
   margin-left: 10px;
-  flex-basis: calc( (100% - 4 * 30px) / 4);
-  justify-items: center;
-  
+
 }
 .icon-staff:first-child {
   margin-left: 0;
