@@ -146,10 +146,10 @@ align-items: center;
   }
 
   .phone-icon:hover {
-    fill:var(--accent-color);
+    fill: currentColor;
   }
   .phone-icon:focus {
-    fill:var(--accent-color);
+    fill: currentColor;
   }
 
 .text-nav-buttons {
