@@ -145,7 +145,7 @@ align-items: center;
     color: var(--accent-color);
   }
 
-  .phone-icon:hover {
+  .svg-contact:hover {
     fill: currentColor;
   }
   .phone-icon:focus {
