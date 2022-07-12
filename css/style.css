@@ -125,10 +125,10 @@ align-items: center;
   margin-right: 10px;
 }
 .mail-icon:hover {
-  fill: var(--accent-color);
+  fill: currentColor;
 }
 .mail-icon:focus {
-  fill:var(--accent-color);
+  fill: currentColor;
 }
 .link-phone {
   display: flex;
@@ -140,7 +140,7 @@ align-items: center;
   
   .nav-list.link-phone:hover {
     color: var(--accent-color);
-  }
+    }
   .nav-list.link-phone:focus {
     color: var(--accent-color);
   }
