@@ -123,11 +123,6 @@ align-items: center;
 }
 .mail-icon {
   margin-right: 10px;
-}
-.mail-icon:hover {
-  fill: currentColor;
-}
-.mail-icon:focus {
   fill: currentColor;
 }
 .link-phone {
@@ -136,6 +131,7 @@ align-items: center;
   }
   .phone-icon {
     margin-right: 10px;
+    fill: currentColor;
   }
   
   .nav-list.link-phone:hover {
@@ -143,13 +139,6 @@ align-items: center;
     }
   .nav-list.link-phone:focus {
     color: var(--accent-color);
-  }
-
-  .svg-contact:hover {
-    fill: currentColor;
-  }
-  .phone-icon:focus {
-    fill: currentColor;
   }
 
 .text-nav-buttons {
@@ -173,7 +162,10 @@ align-items: center;
   padding-top: 32px;
   padding-bottom: 32px;
 }
-
+.text-nav-contacts:hover,
+.text-nav-contacts:focus{
+  color: var(--accent-color);
+}
 /*--hero--------------*/
 
 .section-hero {
