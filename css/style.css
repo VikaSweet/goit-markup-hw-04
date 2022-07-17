@@ -454,6 +454,7 @@ display: block;
   background-position: center;
   background-repeat: no-repeat;
  border-radius: 50%;
+ fill:#757575;
 }
 
 .svg-card {
