@@ -457,8 +457,8 @@ display: block;
 }
 
 .svg-card {
-  fill: currentColor;
-  background-color: currentColor;
+  fill: #ffffff;
+  background-color: #2196f3;
  }
 
  .svg-card:hover  {
