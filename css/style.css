@@ -427,6 +427,8 @@ justify-content: center;
   width: 44px;
   height: 44px;
   margin-left: 10px;
+  background-color: #ffffff;
+
 
   
 }
@@ -450,34 +452,31 @@ justify-content: center;
 display: block;
   margin-top: 0px;
   margin-bottom: 0px;
-  background-color: #ffffff;
   background-position: center;
   background-repeat: no-repeat;
  border-radius: 50%;
- fill:#2196f3;
+ background-color: currentColor;
 }
 
 .svg-card {
-  background-color: #357935;
+  fill: #357935;
   
  }
 
  .svg-card:hover  {
-  fill: #ffffff;
-  background-color: var(--accent-color);
-}
+  fill: #ffffff
+  }
 
 .svg-card:focus {
   fill: #ffffff;
-  background-color: var(--accent-color);
 }
 
-.link-svg:hover {
+.icon-staff:hover {
   background-color: var(--accent-color);
   border-radius: 50%;
  
 }
-.link-svg:focus {
+.icon-staff:focus {
   background-color: var(--accent-color);
   border-radius: 50%;
 }
@@ -535,10 +534,10 @@ display: block;
   .svg {
 fill: rgba(175, 177, 184, 1);
 } 
- .icon-clients:hover {
+ .clients-link:hover {
   border-color: var(--accent-color);
 }
-.icon-clients:focus{
+.clients-link:focus{
   border-color:var(--accent-color);
 }
 .icon-clients:focus .svg {
