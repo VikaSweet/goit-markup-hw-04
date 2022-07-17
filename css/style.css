@@ -460,11 +460,13 @@ display: block;
 
 .svg-card {
   fill: rgba(175, 177, 184, 1);
+  background: #ffffff;
   
  }
 
  .svg-card:hover  {
-  fill: #ffffff
+  fill: #ffffff;
+  background-color: #2196f3;
   }
 
 .svg-card:focus {
