@@ -464,7 +464,7 @@ display: block;
   
  }
 
- /*---.svg-card:hover  {
+.svg-card:hover  {
   fill: #ffffff;
   background-color: #2196f3;
   }
@@ -472,13 +472,12 @@ display: block;
 .svg-card:focus {
   fill: #ffffff;
 }
----*/
 
 .icon-staff:hover .svg-card {
   background-color: var(--accent-color);
   border-radius: 50%;
+ }
  
-}
 .icon-staff:focus .svg-card {
   background-color: var(--accent-color);
   border-radius: 50%;
