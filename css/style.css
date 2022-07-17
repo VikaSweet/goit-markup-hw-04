@@ -457,7 +457,7 @@ display: block;
 }
 
 .svg-card {
-  fill: rgba(175, 177, 184, 1);
+  fill: currentColor;
   background-color: currentColor;
  }
 
