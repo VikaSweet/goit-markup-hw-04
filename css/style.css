@@ -447,11 +447,15 @@ justify-content: center;
 display: block;
   margin-top: 0px;
   margin-bottom: 0px;
+  height: 100%;
+  width: 100%;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .svg-card {
+  height: 100%;
+  width: 100%;
   fill: rgba(175, 177, 184, 1);
   background: #ffffff;
   
