@@ -450,6 +450,7 @@ justify-content: center;
 display: block;
   margin-top: 0px;
   margin-bottom: 0px;
+  background-color: #ffffff;
   background-position: center;
   background-repeat: no-repeat;
  border-radius: 50%;
@@ -457,14 +458,17 @@ display: block;
 
 .svg-card {
   fill: rgba(175, 177, 184, 1);
+  background-color: currentColor;
  }
 
  .svg-card:hover  {
   fill: #ffffff;
+  background-color: var(--accent-color);
 }
 
 .svg-card:focus {
   fill: #ffffff;
+  background-color: var(--accent-color);
 }
 
 .link-svg:hover {
@@ -549,6 +553,7 @@ fill: rgba(175, 177, 184, 1);
   padding-top: 60px;
   padding-bottom: 60px;
   }
+
   .footer-container {
 display: flex;
 align-items: baseline;
@@ -560,6 +565,7 @@ align-items: baseline;
 align-items: left;
 margin-bottom: 20px;
   }
+
 .footer-contacts {
 display: flex;
 flex-direction: column;
