@@ -426,12 +426,8 @@ justify-content: center;
 .icon-staff {
   width: 44px;
   height: 44px;
-  margin-left: 10px;
-  background-color: #ffffff;
-
-
-  
 }
+
 .icon-staff:first-child {
   margin-left: 0;
 }
@@ -445,7 +441,6 @@ justify-content: center;
    height: 100%;
   width: 100%;
   padding: 0;
-  border-radius: 50%;
 }
 
 .link-svg {
@@ -454,8 +449,6 @@ display: block;
   margin-bottom: 0px;
   background-position: center;
   background-repeat: no-repeat;
- border-radius: 50%;
- background-color: currentColor;
 }
 
 .svg-card {
@@ -477,7 +470,7 @@ display: block;
   background-color: var(--accent-color);
   border-radius: 50%;
  }
- 
+
 .icon-staff:focus .svg-card {
   background-color: var(--accent-color);
   border-radius: 50%;
