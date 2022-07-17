@@ -459,7 +459,7 @@ display: block;
 }
 
 .svg-card {
-  fill: #357935;
+  fill: rgba(175, 177, 184, 1);
   
  }
 
@@ -471,12 +471,12 @@ display: block;
   fill: #ffffff;
 }
 
-.icon-staff:hover {
+.icon-staff:hover .svg-card {
   background-color: var(--accent-color);
   border-radius: 50%;
  
 }
-.icon-staff:focus {
+.icon-staff:focus .svg-card {
   background-color: var(--accent-color);
   border-radius: 50%;
 }
