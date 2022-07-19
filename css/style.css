@@ -461,15 +461,15 @@ display: block;
  }
 
 
-.svg-card:hover  {
+.icon-staff:hover .svg-card {
   fill: #ffffff;
   }
 
-.svg-card:focus {
+.icon-staff:focus .svg-card {
   fill: #ffffff;
 }
-.icon-staff:hover .svg-card  {
-  background-color: #2196f3;
+.icon-staff:hover .link-svg  {
+  background-color: #2196f3!important;
   
 }
 
