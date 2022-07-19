@@ -451,17 +451,15 @@ display: block;
   width: 100%;
   background-position: center;
   background-repeat: no-repeat;
-  fill: rgba(175, 177, 184, 1);
-  background-color: #2196f3;
+  background-color: #33f321;
+  border-radius: 50%;
 }
-/*--
+
 .svg-card {
-  height: 100%;
-  width: 100%;
-  fill: rgba(175, 177, 184, 1);
+ fill: rgba(175, 177, 184, 1);
   
  }
- --*/
+
 
 .svg-card:hover  {
   fill: #ffffff;
@@ -470,9 +468,9 @@ display: block;
 .svg-card:focus {
   fill: #ffffff;
 }
-.svg-card:hover .icon-staff {
+.icon-staff:hover .svg-card  {
   background-color: #2196f3;
-  border-radius: 50%;
+  
 }
 
 /*--clients-------*/
