@@ -433,9 +433,10 @@ gap: 10px;
    height: 100%;
   width: 100%;
   padding: 0;
+  background-color: var(--background-origin);
   border-radius: 50%;
 }
-
+/*--
 .link-svg {
 display: block;
   margin-top: 0px;
@@ -444,27 +445,26 @@ display: block;
   width: 100%;
   background-position: center;
   background-repeat: no-repeat;
-  background-color: var(--background-origin);
   border-radius: 50%;
 }
-
+--*/
 .svg-card {
  fill: rgba(175, 177, 184, 1);
   
  }
 
 
-.icon-staff:hover .svg-card {
+.icons-link:hover .svg-card {
   fill: #ffffff;
   }
 
-.icon-staff:focus .svg-card {
+.icons-link:focus .svg-card {
   fill: #ffffff;
 }
-.icon-staff:hover .link-svg  {
+.icons-link:hover .link-svg  {
   background-color: #2196f3;
 }
-.icon-staff:focus .link-svg  {
+.icons-link:focus .link-svg  {
   background-color: #2196f3;
 }
 /*--clients-------*/
@@ -527,10 +527,10 @@ fill: rgba(175, 177, 184, 1);
 .clients-link:focus {
   border-color:var(--accent-color);
 }
-.icon-clients:focus .svg {
+.clients-link:focus .svg {
   fill: var(--accent-color);
 }
-.icon-clients:hover .svg {
+.clients-link:hover .svg {
   fill:var(--accent-color);
 }
 
@@ -646,11 +646,11 @@ margin-bottom: 9px;
  border-radius: 1px;
 }
 
-.network-icon:hover .network-link {
+.network-link:hover {
   background-color: var(--accent-color);
    } 
 
- .network-icon:focus .network-link {
+   .network-link:focus  {
   background-color: var(--accent-color);
    }
 
