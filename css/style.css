@@ -224,7 +224,6 @@ margin-right: auto;
 .section-best-item {
   background-color: var(--background-origin);
   text-align: center;
-  margin-bottom: 94px;
   }
 .items-list {
   display: flex;
@@ -266,15 +265,7 @@ font-weight: 700;
   height: 120px;
     padding: 0;
     margin-bottom: 30px;
-}
-
-.item-icon {
-  height: 120px;
-  width: 270px;
-  margin-left: 30px;
-  margin-bottom: 30px;
-  padding: 0;
-background-color: #F5F4FA;
+    background-color: #F5F4FA;
 border-radius: 4px;
 }
 .item-icon:first-child {
@@ -422,6 +413,7 @@ rgba(0, 0, 0, 0.12);
 display: flex;
 flex-wrap: wrap;
 justify-content: center;
+gap: 10px;
 }
 .icon-staff {
   width: 44px;
@@ -441,6 +433,7 @@ justify-content: center;
    height: 100%;
   width: 100%;
   padding: 0;
+  border-radius: 50%;
 }
 
 .link-svg {
@@ -470,9 +463,10 @@ display: block;
 }
 .icon-staff:hover .link-svg  {
   background-color: #2196f3;
-  
 }
-
+.icon-staff:focus .link-svg  {
+  background-color: #2196f3;
+}
 /*--clients-------*/
 .section-clients {
   background-color: var(--background-origin);
@@ -510,6 +504,7 @@ display: block;
    height: 100%;
   width: 100%;
   padding: 0;
+  border-radius: 4px;
   justify-items: center;
   border: 1px solid rgba(175, 177, 184, 1);
 }
@@ -529,7 +524,7 @@ fill: rgba(175, 177, 184, 1);
  .clients-link:hover {
   border-color: var(--accent-color);
 }
-.clients-link:focus{
+.clients-link:focus {
   border-color:var(--accent-color);
 }
 .icon-clients:focus .svg {
@@ -601,12 +596,9 @@ margin-bottom: 9px;
 }
 /*--social-networks----*/
 .network-container {
-  display: flex;
-  flex-direction: column;
    margin-left: 70px; 
-   height: 80px;
+  }
 
-}
 .title-network {
   font-family: var(--primary-font-family);
   font-weight: 700;
@@ -641,7 +633,8 @@ margin-bottom: 9px;
      height: 100%;
     width: 100%;
     padding: 0;
-border-radius: 50%;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
 }
 
 .network-svg {
@@ -651,15 +644,13 @@ border-radius: 50%;
   content: "";
  background-repeat: no-repeat;
  border-radius: 1px;
- background: rgba(255, 255, 255, 0.1);
- border-radius: 50%;
 }
 
-.network-icon:hover .network-svg {
+.network-icon:hover .network-link {
   background-color: var(--accent-color);
    } 
 
- .network-icon:focus .network-svg {
+ .network-icon:focus .network-link {
   background-color: var(--accent-color);
    }
 
