@@ -454,10 +454,10 @@ gap: 10px;
 .icons-link:focus .svg-card {
   fill: #ffffff;
 }
-.icons-link:hover .link-svg  {
+.icons-link:hover {
   background-color: #2196f3;
 }
-.icons-link:focus .link-svg  {
+.icons-link:focus {
   background-color: #2196f3;
 }
 /*--clients-------*/
